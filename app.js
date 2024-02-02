@@ -129,7 +129,7 @@ function init__filters() {
             curr__items,
             filtered__items,
             other__items,
-            filter_items
+            filter_itemss
         ) {
             // Function: Separating Items By Selected Category
 
@@ -195,7 +195,7 @@ function init__filters() {
 // Active Navigation Function
 const changeNav = (entries, observer) => {
     entries.forEach((entry) => {
-        if (entry.isIntersecting && entry.intersectionRatio >= 0.85) {
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.8) {
             // Remove 'active' class from all navigation links0
             document.querySelectorAll('.nav-btn a').forEach((link) => {
                 link.classList.remove('active')
@@ -225,7 +225,7 @@ const changeNav = (entries, observer) => {
 }
 
 const options = {
-    threshold: 0.85,
+    threshold: 0.8,
 }
 
 const observer = new IntersectionObserver(changeNav, options)
