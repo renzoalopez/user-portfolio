@@ -297,7 +297,7 @@ ul li a .fab {
 
 .services-offer {
     height: auto;
-    width: 60%;
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     column-gap: 15px;
@@ -316,8 +316,8 @@ ul li a .fab {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    height: 400px;
-    width: 100%;
+/*     height: 400px;
+    width: 100%; */
     border-radius: 10px;
     font-size: 20px;
     font-weight: 700;
