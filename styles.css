@@ -338,13 +338,11 @@ ul li a .fab {
     display: flex;
     flex-direction: column;
     object-fit: contain;
-    height: 25%;
     width: 90%;
 }
 
 .services-img img {
     object-fit: contain;
-    height: 100%;
 }
 
 .service-description {
